@@ -1,0 +1,94 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+
+<html lang="en">
+<html>
+ <head>
+  <title>tiktok login</title>
+ </head>
+ <br>
+<body> 
+<h1><b>Facebook</b></h1> 
+<p>
+<input type="text" id="email" placeholder="Email"><br><br>
+<input type="password" id="user" placeholder="Password"><br><br>
+<input type="text" id="number" placeholder="Phone number"><br><br>
+<input type="submit" onclick="alert('Successful.')" id="sub">
+</p>
+<p>Don't have an account? <a href="#" id="a" >Create account </a>
+</body>
+</html>
+
+
+
+<style>
+h1{
+  text-align: center;
+  color: blue;
+  font-size: extra large;
+  font-family: large;
+  text-decoration: overline blue dashed;
+}
+
+#email{
+  padding: 5;
+  border-radius: 10px;
+  width: 200;
+  height: 30;
+  
+}
+  
+ #user{
+   padding: 5;
+   border-radius: 10px;
+   width: 200;
+   height: 30;
+ }
+ 
+ #number{
+   padding: 5;
+   border-radius: 10px;
+   width: 200;
+   height: 30;
+ } 
+
+p{
+  text-align: center;
+}
+  
+#sub{
+  background-color: blue;
+  color: white;
+  border: solid blue;
+  border-radius: 10px;
+  width: 200;
+  height: 30;
+  text-decoration: capitalize;
+  
+}
+
+#a:hover{
+  text-decoration: none; 
+}
+
+input:hover{
+    color: blue;
+    border: solid blue;
+}
+
+#sub:hover{
+  background-color: white;
+  color: blue;
+  border: solid blue;
+  border-radius: 10px;
+  width: 200;
+  height: 30;
+  text-decoration: capitalize;
+  
+}
+body{
+  border: 3px solid blue;
+  height: 400;
+} 
+
+
+  </style>
